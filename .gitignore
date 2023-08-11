@@ -72,3 +72,5 @@ Example/Example.xcodeproj
 FancyNotifications.xcodeproj
 Example/Example.xcodeproj
 FancyStyle.xcodeproj
+Example/Project.swift
+Example/Workspace.swift
