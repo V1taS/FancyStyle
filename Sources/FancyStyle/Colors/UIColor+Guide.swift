@@ -14,6 +14,13 @@ public extension UIColor {
   class var fancy: ColorGuide { colorGuide }
 }
 
+/// Расширение для `CGColor`
+public extension CGColor {
+  
+  /// Список цветов `Fancy`
+  class var fancy: ColorGuide { colorGuide }
+}
+
 // MARK: - Public property
 
 public var fancyColor: ColorGuide { colorGuide }
