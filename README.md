@@ -1,5 +1,6 @@
 # Fancy Style
 
+![Logo](https://sosinvitalii.com/wp-content/uploads/2023/08/IMG_7087-2.png "Fancy Style")
 
 ### Start Example
 

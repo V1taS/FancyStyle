@@ -10,14 +10,15 @@ import UIKit
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   
   var window: UIWindow?
+  private var coordinator: Coordinator?
   
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-    guard let scene = (scene as? UIWindowScene) else { return }
+    guard let scene = scene as? UIWindowScene else { return }
     let window = UIWindow(windowScene: scene)
-    let rootViewController = MainScreenAssembly().createModule()
-    window.overrideUserInterfaceStyle = .light
-    window.makeKeyAndVisible()
-    window.rootViewController = UINavigationController(rootViewController: rootViewController)
+    //    window.overrideUserInterfaceStyle = .dark
+    let coordinator = RootCoordinator(window: window)
+    self.coordinator = coordinator
+    coordinator.start()
     self.window = window
   }
 }
