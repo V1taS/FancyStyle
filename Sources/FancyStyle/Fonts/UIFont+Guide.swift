@@ -10,12 +10,12 @@ import UIKit
 public extension UIFont {
   
   /// Список цветов `RandomFont`
-  class var randomFont: FontGuide { fontGuide }
+  class var fancy: FontGuide { fontGuide }
 }
 
 // MARK: - Public property
 
-public var RandomFont: FontGuide { fontGuide }
+public var fancyFont: FontGuide { fontGuide }
 
 // MARK: - Private property
 

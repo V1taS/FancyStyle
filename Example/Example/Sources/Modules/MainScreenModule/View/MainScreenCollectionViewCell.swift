@@ -68,7 +68,7 @@ final class MainScreenCollectionViewCell: UICollectionViewCell {
     roundedBackgroundView.layer.borderColor = fancyColor.darkAndLightTheme.primaryGray.cgColor
     roundedBackgroundView.layer.borderWidth = appearance.borderWidth
     
-    titleLabel.font = RandomFont.primaryMedium18
+    titleLabel.font = fancyFont.primaryMedium18
     titleLabel.textColor = fancyColor.darkAndLightTheme.primaryGray
   }
 }

@@ -36,59 +36,59 @@ final class FontsScreenViewCell: UITableViewCell {
     
     switch fontToken {
     case .primaryBold70:
-      titleLabel.font = RandomFont.primaryBold70
+      titleLabel.font = fancyFont.primaryBold70
     case .primaryBold50:
-      titleLabel.font = RandomFont.primaryBold50
+      titleLabel.font = fancyFont.primaryBold50
     case .primaryBold32:
-      titleLabel.font = RandomFont.primaryBold32
+      titleLabel.font = fancyFont.primaryBold32
     case .primaryBold24:
-      titleLabel.font = RandomFont.primaryBold24
+      titleLabel.font = fancyFont.primaryBold24
     case .primaryBold18:
-      titleLabel.font = RandomFont.primaryBold18
+      titleLabel.font = fancyFont.primaryBold18
     case .primaryBold16:
-      titleLabel.font = RandomFont.primaryBold16
+      titleLabel.font = fancyFont.primaryBold16
     case .primaryBold14:
-      titleLabel.font = RandomFont.primaryBold14
+      titleLabel.font = fancyFont.primaryBold14
     case .primaryBold12:
-      titleLabel.font = RandomFont.primaryBold12
+      titleLabel.font = fancyFont.primaryBold12
     case .primaryBold10:
-      titleLabel.font = RandomFont.primaryBold10
+      titleLabel.font = fancyFont.primaryBold10
     case .primaryMedium80:
-      titleLabel.font = RandomFont.primaryMedium80
+      titleLabel.font = fancyFont.primaryMedium80
     case .primaryMedium48:
-      titleLabel.font = RandomFont.primaryMedium48
+      titleLabel.font = fancyFont.primaryMedium48
     case .primaryMedium40:
-      titleLabel.font = RandomFont.primaryMedium40
+      titleLabel.font = fancyFont.primaryMedium40
     case .primaryMedium32:
-      titleLabel.font = RandomFont.primaryMedium32
+      titleLabel.font = fancyFont.primaryMedium32
     case .primaryMedium24:
-      titleLabel.font = RandomFont.primaryMedium24
+      titleLabel.font = fancyFont.primaryMedium24
     case .primaryMedium18:
-      titleLabel.font = RandomFont.primaryMedium18
+      titleLabel.font = fancyFont.primaryMedium18
     case .primaryMedium16:
-      titleLabel.font = RandomFont.primaryMedium16
+      titleLabel.font = fancyFont.primaryMedium16
     case .primaryMedium14:
-      titleLabel.font = RandomFont.primaryMedium14
+      titleLabel.font = fancyFont.primaryMedium14
     case .primaryMedium12:
-      titleLabel.font = RandomFont.primaryMedium12
+      titleLabel.font = fancyFont.primaryMedium12
     case .primaryMedium10:
-      titleLabel.font = RandomFont.primaryMedium10
+      titleLabel.font = fancyFont.primaryMedium10
     case .primaryRegular32:
-      titleLabel.font = RandomFont.primaryRegular32
+      titleLabel.font = fancyFont.primaryRegular32
     case .primaryRegular24:
-      titleLabel.font = RandomFont.primaryRegular24
+      titleLabel.font = fancyFont.primaryRegular24
     case .primaryRegular18:
-      titleLabel.font = RandomFont.primaryRegular18
+      titleLabel.font = fancyFont.primaryRegular18
     case .primaryRegular16:
-      titleLabel.font = RandomFont.primaryRegular16
+      titleLabel.font = fancyFont.primaryRegular16
     case .primaryRegular14:
-      titleLabel.font = RandomFont.primaryRegular14
+      titleLabel.font = fancyFont.primaryRegular14
     case .primaryRegular12:
-      titleLabel.font = RandomFont.primaryRegular12
+      titleLabel.font = fancyFont.primaryRegular12
     case .primaryRegular10:
-      titleLabel.font = RandomFont.primaryRegular10
+      titleLabel.font = fancyFont.primaryRegular10
     case .primaryLight48:
-      titleLabel.font = RandomFont.primaryLight48
+      titleLabel.font = fancyFont.primaryLight48
     }
   }
   
