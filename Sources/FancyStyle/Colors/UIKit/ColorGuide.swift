@@ -19,7 +19,7 @@ public struct ColorGuide {
   // MARK: - Only
   
   /// Только конкретный цвет
-  public struct Only {
+  public struct Only: ColorOnlyGuideProtocol {
     
     /// Темно-серый цвет
     public let primaryGray = UIColor(hexString: ColorToken.primaryGray.hexString)
@@ -82,7 +82,7 @@ public struct ColorGuide {
   // MARK: - DarkAndLightTheme
   
   /// Темная и светлая тема
-  public struct DarkAndLightTheme {
+  public struct DarkAndLightTheme: ColorDarkAndLightGuideProtocol {
     
     /// Темно-серый цвет
     public let primaryGray = UIColor(light: .primaryGray, dark: .primaryWhite)
